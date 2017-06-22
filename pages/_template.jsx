@@ -53,7 +53,7 @@ export default class Template extends React.Component {
             maxWidth: 960,
             padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
             paddingTop: 0,
-            // background: `url('https://userscontent2.emaze.com/images/99d28af9-27f7-47a9-9a99-e01a0cb9fd65/c9f7a113-1661-46d3-817d-c4bc9cbfdcc4.png') no-repeat center`,
+            // background: `url('./img/me.jpg') no-repeat center`,
           }}
         >
           {this.props.children}

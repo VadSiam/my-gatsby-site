@@ -4,8 +4,9 @@ import { prefixLink } from 'gatsby-helpers'
 import Helmet from 'react-helmet'
 import { config } from 'config'
 import { rhythm } from '../utils/typography'
+import face from './img/me.jpg'
 
-import Letter from 'pages/components/letter'
+import Button from 'pages/components/button'
 import Line from 'pages/components/line'
 
 export default class Index extends React.Component {
@@ -17,17 +18,36 @@ export default class Index extends React.Component {
             display: 'inline-flex',
             width: '100%',
             textAlign: 'center',
-            marginTop: 100,
-        }}>
-          <Letter letter={'H'} paddingTop={20}/>
+            marginTop: 50,
+          }}>
+          <div
+            style={{
+              width: '30%',
+              height: '60vh',
+              padding: `0 2vh`,
+            }}>
+            <Button title={"Experience"} icon={"icon"}/>
+            <Button title={"Projects"} icon={"icon"}/>
+          </div>
+          <div
+            style={{
+              width: '40%',
+              background: `url('./img/me.jpg') no-repeat center`,
+              backgroundSize: 'cover',
+              borderRadius: '10%',
+              height: '60vh'
+            }}>
 
-          <Line deg={140} />
-
-          <Letter letter={'O'} paddingTop={0} />
-
-          <Line deg={40} />
-
-          <Letter letter={'H'} paddingTop={20} />
+            </div>
+            <div
+              style={{
+                width: '30%',
+                height: '60vh',
+                padding: `0 2vh`,
+              }}>
+              <Button title={"Who am I"} icon={"icon"}/>
+              <Button title={"Hobby"} icon={"icon"}/>
+            </div>
         </div>
         {/* <h1>
           Hi people
