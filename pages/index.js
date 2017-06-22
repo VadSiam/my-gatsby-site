@@ -5,23 +5,30 @@ import Helmet from 'react-helmet'
 import { config } from 'config'
 import { rhythm } from '../utils/typography'
 
-
-
-import New from 'pages/new'
+import Letter from 'pages/components/letter'
+import Line from 'pages/components/line'
 
 export default class Index extends React.Component {
   render() {
     return (
       <div>
-        <div style={{
-          fontSize: rhythm(3)
-        }}>H</div>
-        <hr style={{
-          transform: `rotate(139deg)`
-        }} />
-        <div style={{
-          fontSize: rhythm(3)
-        }}>H</div>
+        <div
+          style={{
+            display: 'inline-flex',
+            width: '100%',
+            textAlign: 'center',
+            marginTop: 100,
+        }}>
+          <Letter letter={'H'} paddingTop={20}/>
+
+          <Line deg={140} />
+
+          <Letter letter={'O'} paddingTop={0} />
+
+          <Line deg={40} />
+
+          <Letter letter={'H'} paddingTop={20} />
+        </div>
         {/* <h1>
           Hi people
         </h1>
