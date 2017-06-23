@@ -7,6 +7,7 @@ import { rhythm } from '../utils/typography'
 import face from './img/me.jpg'
 
 import Button from 'pages/components/button'
+import ButtonNoLink from 'pages/components/button_no_link'
 import Line from 'pages/components/line'
 
 export default class Index extends React.Component {
@@ -26,8 +27,9 @@ export default class Index extends React.Component {
               height: '60vh',
               padding: `0 2vh`,
             }}>
-            <Button title={"Experience"} icon={"icon"}/>
-            <Button title={"Projects"} icon={"icon"}/>
+            <ButtonNoLink title={"Experience"} icon={"book"}/>
+            <Button link={'/who_am_i/'} title={"Who am I"} icon={"smile-o"}/>
+            {/* I am a sociable web developer who enjoys the simple life. I'm a beach bum at heart and am also a video game enthusiast. I currently reside in Orlando, Florida and am always pushing myself to learn and develop my skills further. */}
           </div>
           <div
             style={{
@@ -45,8 +47,8 @@ export default class Index extends React.Component {
                 height: '60vh',
                 padding: `0 2vh`,
               }}>
-              <Button title={"Who am I"} icon={"icon"}/>
-              <Button title={"Hobby"} icon={"icon"}/>
+              <Button link={'/projects/'} title={"Projects"} icon={"cubes"}/>
+              <Button link={'/hobby/'} title={"Hobby"} icon={"motorcycle"}/>
             </div>
         </div>
         {/* <h1>

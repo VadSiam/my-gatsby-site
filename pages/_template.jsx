@@ -42,7 +42,7 @@ export default class Template extends React.Component {
                   textDecoration: "none",
                 }}
               >
-                Water = Life
+                Vad Siam
               </Link>
             </h1>
           </div>
