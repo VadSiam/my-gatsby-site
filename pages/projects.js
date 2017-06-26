@@ -8,11 +8,11 @@ export default class Projects extends React.Component {
   render() {
     return (
       <div>
-        <h1>
-          Hi people
+        <Link to={prefixLink('/')}>&#8592; Go back to the homepage</Link>
+        <h1 style={{ fontWeight: 300, marginTop: 50 }}>
+          I have several projects done, but many of them are closed. Just contact me
         </h1>
-        <p>Welcome to page 3</p>
-        <Link to={prefixLink('/')}>Go back to the homepage</Link>
+        <Link to={prefixLink('/who_am_i/')}>Contact me</Link>
       </div>
     )
   }

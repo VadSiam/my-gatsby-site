@@ -8,7 +8,6 @@ import face from './img/me.jpg'
 
 import Button from 'pages/components/button'
 import ButtonNoLink from 'pages/components/button_no_link'
-import Line from 'pages/components/line'
 
 export default class Index extends React.Component {
   render() {
@@ -29,7 +28,6 @@ export default class Index extends React.Component {
             }}>
             <ButtonNoLink title={"Experience"} icon={"book"}/>
             <Button link={'/who_am_i/'} title={"Who am I"} icon={"smile-o"}/>
-            {/* I am a sociable web developer who enjoys the simple life. I'm a beach bum at heart and am also a video game enthusiast. I currently reside in Orlando, Florida and am always pushing myself to learn and develop my skills further. */}
           </div>
           <div
             style={{
@@ -51,13 +49,6 @@ export default class Index extends React.Component {
               <Button link={'/hobby/'} title={"Hobby"} icon={"motorcycle"}/>
             </div>
         </div>
-        {/* <h1>
-          Hi people
-        </h1>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
-        <Link to={prefixLink('/page-2/')}>Go to page 2</Link>
-        <New /> */}
       </div>
     )
   }

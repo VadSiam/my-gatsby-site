@@ -42,7 +42,7 @@ export default class Template extends React.Component {
                   textDecoration: "none",
                 }}
               >
-                Vad Siam
+                Vad Siam - web developer
               </Link>
             </h1>
           </div>
@@ -53,7 +53,6 @@ export default class Template extends React.Component {
             maxWidth: 960,
             padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
             paddingTop: 0,
-            // background: `url('./img/me.jpg') no-repeat center`,
           }}
         >
           {this.props.children}

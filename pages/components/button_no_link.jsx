@@ -21,7 +21,7 @@ export default class ButtonNoLink extends React.Component {
   }
 
   state = {
-    showContent: true
+    showContent: false
   }
 
   showAnimate = () => this.setState({ showContent: true })

@@ -8,11 +8,8 @@ export default class Hobby extends React.Component {
   render() {
     return (
       <div>
-        <h1>
-          Hi people
-        </h1>
-        <p>Welcome to page Hobby</p>
-        <Link to={prefixLink('/')}>Go back to the homepage</Link>
+        <Link to={prefixLink('/')}>&#8592; Go back to the homepage</Link>
+        <img style={{ marginTop: 50 }} src='../img/hobby.jpg' />
       </div>
     )
   }
