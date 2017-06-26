@@ -17,13 +17,13 @@ export default class Template extends React.Component {
         <Helmet
           title={config.siteTitle}
           meta={[
-            { name: "description", content: "Water" },
-            { name: "keywords", content: "Water, Life" },
+            { name: "description", content: "Frontend" },
+            { name: "keywords", content: "Frontend, React" },
           ]}
         />
         <div
           style={{
-            background: `aqua`,
+            background: `steelblue`,
             marginBottom: rhythm(1),
           }}
         >
@@ -42,7 +42,7 @@ export default class Template extends React.Component {
                   textDecoration: "none",
                 }}
               >
-                Vad Siam - web developer
+                Vad Siam - Web Developer
               </Link>
             </h1>
           </div>
