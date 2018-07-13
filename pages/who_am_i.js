@@ -16,10 +16,10 @@ export default class WhoAmI extends React.Component {
         </h1>
         <img src='../img/me2.jpg' />
         <h3> My skills :
-          Javascript: React JS (Mobx, Redux - less), Jquery; CSS: Sass, PostCss; HTML: Jade, BEM;
+          Javascript: React Native(iOS and Android), React JS (Redux, Redux-Saga, Mobx), Jquery; CSS: Sass, PostCss; HTML: Jade, BEM;
         </h3>
         <h3 style={{ fontWeight: 300 }}>
-          I am a sociable web developer who enjoys the simple life. I currently reside in Russia, South Ural and am always
+          I am a sociable web developer who enjoys the simple life. I currently reside in Kiev, and am always
             pushing myself to learn and develop my skills further.
         </h3>
         <h4>Contact me: </h4>
